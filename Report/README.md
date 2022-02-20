@@ -1,16 +1,20 @@
-## FINGERPRINT BASED BIOMETRIC ATTENDANCE SYSTEM
+# FINGERPRINT BASED BIOMETRIC ATTENDANCE SYSTEM
 
-### 1 INTRODUCTION
-#### 1.1 OBJECTIVE
-             Biometric Attendance systems are commonly used systems to mark the presence in school, college, business organization, offices where marking of attendance is required accurately with time. Fingerprint based biometric Attendance system is proposed. By using the fingerprint sensor, the system will become more secure for the users. The Biometric Attendance system is designed using an AVR microcontroller.
+## 1 INTRODUCTION
+### 1.1 OBJECTIVE
+     Biometric Attendance systems are commonly used systems to mark the presence in school, college, business organization, offices where marking of attendance is required accurately with time. Fingerprint based biometric Attendance system is proposed. By using the fingerprint sensor, the system will become more secure for the users. The Biometric Attendance system is designed using an AVR microcontroller.
 
 #### 1.2 FINGERPRINT BASED BIOMETRIC ATTENDANCE SYSTEM PRINCIPLE
-           Fingerprint identification is based on the fact that no two persons will have the same fingerprint in this world. Finger print module differentiates between two fingers based on the ridges and valleys on finger print. Main heart of the circuit is the fingerprint module. This sends commands to the controller whenever the fingerprint is matched. Microcontroller receives these commands from the finger print module and uses the internal EEPROM to store the attendance. Keypad is used to send the requests to the controller either to enroll the new one or to save the attendance or to exit. LCD displays display the messages related to the commands received.
+         Fingerprint identification is based on the fact that no two persons will have the same fingerprint in this world. Finger print module differentiates between two fingers based on the ridges and valleys on finger print. Main heart of the circuit is the fingerprint module. This sends commands to the controller whenever the fingerprint is matched. Microcontroller receives these commands from the finger print module and uses the internal EEPROM to store the attendance. Keypad is used to send the requests to the controller either to enroll the new one or to save the attendance or to exit. LCD displays display the messages related to the commands received.
 
 #### 1.3 FEATURES OF THE SYSTEM
 1.Integrated image collecting and algorithm chip together, ALL-in-One
 2.Fingerprint can conduct secondary development & embedded into a variety of end products
 3.Low power consumption, low cost, small size, excellent performance
+
+#### 1.4 SWOT ANALYSIS
+![swot drawio (1)](https://user-images.githubusercontent.com/98818008/154843366-934eae2f-384c-41f2-9c83-e13def5ad3d2.jpg)
+
 
 #### 1.5 4 W & 1 H ANALYSIS
 
