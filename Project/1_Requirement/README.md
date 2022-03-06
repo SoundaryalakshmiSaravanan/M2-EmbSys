@@ -5,7 +5,7 @@
 
 1.2  RESEARCH
 
-1.3   FEATURES OF THE SYSTEM
+1.3  FEATURES OF THE SYSTEM
 
 1.4 ADVANTAGES OF THE SYSTEM
 
@@ -83,19 +83,19 @@ The ultrasonic wave is basically a sound wave that travels at a speed of 340 m/s
 ![Untitled Diagram](https://user-images.githubusercontent.com/98818008/155769236-89f9a6f5-ee35-4d86-859d-bbe5a780d56c.jpg)
 
 ### 1.6 4W & 1H
-#### WHAT 
+### WHAT 
 The ultrasonic sensor is used to measure the distance. It acts as a Sonar. It sends an ultrasonic wave of a certain frequency that comes back after hitting the object and calculates the time traveled by it.
 
-#### WHERE 
+### WHERE 
 Ultrasonic sensors are used primarily as proximity sensors. They can be found in automobile self-parking technology and anti- collision safety systems. Ultrasonic sensors are also used in robotic obstacle detection systems, as well as manufacturing technology.
 
 #### WHEN 
 Automatic Disrtance Measurement System can be used whereever the measurement of obstracles need to precise
 
-#### WHY 
+### WHY 
 Automatic Disrtance Measurement System is the excellent method to measure the distance of the obstracles without physical needs.
 
-#### HOW
+### HOW
 By interfacing Ultrasonic sensor with ATMega 328p with LCD the distance can be measured precisely.
 
 ## 2 REQUIREMENTS
