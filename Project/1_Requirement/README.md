@@ -74,9 +74,10 @@ An ultrasonic sensor is an electronic device that measures the distance of a tar
 Ultrasonic sensors emit short, high-frequency sound pulses at regular intervals. These propagate in the air at the velocity of sound. If they strike an object, then they are reflected back as echo signals to the sensor, which itself computes the distance to the target based on the time-span between emitting the signal and receiving the echo.
 
 We will have to convert this time into cm to calculate the distance traveled. We will use the following equation to calculate the distance.
-                               ** S = v * t**
+
+                               S = v * t
 The ultrasonic wave is basically a sound wave that travels at a speed of 340 m/s (0.034 cm/s). The ultrasonic sensor is measuring the time it takes to hit the object and then come back but we need only time that it takes to hit the object. So, we will divide it by 2.
-                            **S = (t * 0.034)/2 **                                             
+                            S = (t * 0.034)/2                                              
 
  
 ### 1.5  SWOT ANALYSIS
