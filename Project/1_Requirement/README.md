@@ -1,47 +1,3 @@
-## TABLE OF CONTENTS
-1.INTRODUCTION
-
-1.1  ABSTRACT
-
-1.2  RESEARCH
-
-1.3  FEATURES OF THE SYSTEM
-
-1.4 ADVANTAGES OF THE SYSTEM
-
-1.5  SWOT ANALYSIS
-
-1.6 4W & 1H
-
-**2 REQUIREMENTS**
-
-2.1 HIGH LEVEL REQUIREMENTS
-
-2.2 LOW LEVEL REQUIREMENTS
-
-**3 ARCHITECTURE**
-
-3.1 BLOCK DIAGRAM
-
-3.2 BEHAVIOURAL DIAGRAM
-
-3.3 STRUCTURAL DIAGRAM
-
-3.4 COMPONENTS REQUIRED
-
-3.5 APPLICATIONS
-
-3.6 FUTURESCOPE
-
-
-
-
-
-
-
-
-
-
 # AUTOMATIC DISTANCE MEASUREMENT SYSTEM
 
 
@@ -77,7 +33,8 @@ We will have to convert this time into cm to calculate the distance traveled. We
 
                                S = v * t
 The ultrasonic wave is basically a sound wave that travels at a speed of 340 m/s (0.034 cm/s). The ultrasonic sensor is measuring the time it takes to hit the object and then come back but we need only time that it takes to hit the object. So, we will divide it by 2.
-                            S = (t * 0.034)/2                                              
+                           
+                             S = (t * 0.034)/2                                              
 
  
 ### 1.5  SWOT ANALYSIS
