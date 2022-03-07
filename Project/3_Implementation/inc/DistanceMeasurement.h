@@ -1,7 +1,13 @@
-/** 
-* @file customer billing.h
-*
-*/
+/**
+ * @file main.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-07
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #ifndef __DISTANCE_SENSOR_H_
 #define __DISTANCE_SENSOR_H__
 
@@ -30,7 +36,7 @@
 #define led4 PC5
 #define led5 PD2
 
-#define US_ERROR		-1      // we're defining two more variables two know if the ultrasonic sensor is working or not 
+#define US_ERROR		-1          // we're defining two more variables two know if the ultrasonic sensor is working or not 
 #define	US_NO_OBSTACLE	-2
 
 int distance, previous_distance;
