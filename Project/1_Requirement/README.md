@@ -24,7 +24,7 @@ In this project, we are going to interface Ultrasonic sensor HC-SR04 with ATMEGA
 The ultrasonic sensor is used to measure the distance.It acts as a Sonar. It sends an ultrasonic wave of a certain frequency that comes back after hitting the object and calculates the time traveled by it.
 Distance Measurement Using ATMEGA 328P & HC-SR04 Ultrasonic Sensor is calculated and  displayed in LCD.
 
-## 1.5 PRINCIPLE OF THE SYSTEM
+## PRINCIPLE OF THE SYSTEM
 An ultrasonic sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound waves and converts the reflected sound into an electrical signal. The ultrasonic sensor proposed here is a popular non-contact type level detector. It operates by generating an ultrasonic pulse and measuring the time it takes for an echo to return. 
 
 Ultrasonic sensors emit short, high-frequency sound pulses at regular intervals. These propagate in the air at the velocity of sound. If they strike an object, then they are reflected back as echo signals to the sensor, which itself computes the distance to the target based on the time-span between emitting the signal and receiving the echo.
@@ -57,7 +57,7 @@ Automatic Disrtance Measurement System is the excellent method to measure the di
 ## HOW
 By interfacing Ultrasonic sensor with ATMega 328p with LCD the distance can be measured precisely.
 
-## 2 REQUIREMENTS
+## 2. REQUIREMENTS
 ## 2.1 HIGH LEVEL REQUIREMENTS
 HLR ID|DESCRIPTION|CATEGORY|STATUS
 |-|-|-|-|
