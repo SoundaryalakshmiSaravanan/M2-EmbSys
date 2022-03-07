@@ -5,19 +5,19 @@
 
  ## 1.1  ABSTRACT
 
-In this project, an integrated system using an ultrasonic sensor HC-SR04 based on AT Mega328 microcontroller
+In this project, an integrated system using an ultrasonic sensor HC-SR04 based on ATmega328P microcontroller
 was done. It is used to control the processing of data and to display the output. The microcontroller is connectedto ultrasonic sensor HC-SR04 which contains the piezoelectric with a particular frequency. This will generate ultrasonic waves and the waves will be reflected by the object whose distance to be measured. The time difference between the transmitted wave and reflected wave will be measured by the sensors. The accurate
 distance between the object and the sensors will be detected. Simulation output displayed in simulide.
 
 ## 1.2  RESEARCH
- Human audible range is 20hz to 20khz. We can utilize these frequency range waves through ultrasonic sensor HC-SR04.The advantages of this sensor when interfaced with arduino which is a control and sensing system, a pro per distance measurement can be made with new techniques. This distance measurement system can be widely used as range meters and as proximity detectors in industries.Ultrasonic sensor is interfaced with ATmega 328 is efficient way to measure small distances precisely. The distance of an obstacle from the sensor is measured through ultrasonic sensor. After knowing the speed of sound the distance can be calculated.
+ Human audible range is 20hz to 20khz. We can utilize these frequency range waves through ultrasonic sensor HC-SR04.The advantages of this sensor when interfaced with arduino which is a control and sensing system, a proper distance measurement can be made with new techniques. This distance measurement system can be widely used as range meters and as proximity detectors in industries.Ultrasonic sensor is interfaced with ATmega 328 is efficient way to measure small distances precisely. The distance of an obstacle from the sensor is measured through ultrasonic sensor. After knowing the speed of sound the distance can be calculated.
 
  ## 1.3 FEATURES OF THE SYSTEM
- 1.Measures the distance automatically . 
+ **1.** Measures the distance automatically . 
  
- 2.This system is capabile of detecting the distance of obstracle.
+**2.** This system is capabile of detecting the distance of obstracle.
 
- 3.Can be used in locomotics to avoid accidents.
+**3.** Can be used in locomotics to avoid accidents.
 
 ## 1.4 SYSTEM DESCRIPTION
 In this project, we are going to interface Ultrasonic sensor HC-SR04 with ATMEGA328P and LCD Display.
@@ -73,3 +73,49 @@ LLR2|HLR2|System shall have a Trigger to obtain the input|Technical| Implemented
 LLR2|HLR2|System shall have a Echo to obtain the output|Technical| Implemented
 LLR3|HLR3|System shall have a LCD to communicate with user to display the distance|Technical| Implemented
 
+## 2.3 COMPONENTS REQUIRED
+1. ATMEGA328P
+2. Ultrasonic Sesnor HC-SR04
+3. 16*2 LCD Display
+4. 5V Power Supply
+
+### ATMEGA 328P
+The ATMEGA328P-PN is a popular microcontroller due to it being a major component in the Arduino board products. The ATMEGA328P-PN is the 8-bit RISC heart of the Arduino Uno and Nano, with a maximum clock frequency of 20MHz, 32KB program FLASH, and 2KB of RAM.ATmega328 is commonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed. 
+### HC-SR04 ultrasonic sensor
+The HC-SR04 ultrasonic sensor uses sonar to determine the distance to an object like bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package.
+From 2cm to 400 cm or 1” to 13 feet. Its operation is not affected by sunlight or black material like sharp rangefinders are (although acoustically soft materials like cloth can be difficult to detect). It comes complete with the ultrasonic transmitter and a receiver module.
+Minimum measuring range - 2 cm
+Maximum measuring range : 400 cm or 4 meter
+Accuracy : 3 mm
+Operating Voltage : +5V
+Operating Current : 15mA
+Working Frequency : 40 KHz
+Trigger Input signal : 10us pulse
+Measuring angle : 15 degree
+VCC: +5VDC
+Trig : Trigger (INPUT)
+Echo: Echo (OUTPUT)
+GND: GND
+
+### 16x2 LCD Module
+16x2 LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability, programmer friendly and available educational resources.
+1.Operating Voltage is 4.7V to 5.3V 2.Current consumption is 1mA without backlight 3.Alphanumeric LCD display module, meaning can display alphabets and numbers 4.Consists of two rows and each row can print 16 characters. 5.Each character is build by a 5×8 pixel box 6.Can work on both 8-bit and 4-bit mode 7.It can also display any custom generated characters 8.Available in Green and Blue Backlight
+
+P.No|	PIN| NAME|	PIN DESCRIPTION
+|-|-|-|-|
+1|	Vss (Ground)|	Ground pin connected to system ground|
+2|	Vdd (+5 Volt)|	Powers the LCD with +5V (4.7V – 5.3V)
+3	|VE (Contrast V)|	Decides the contrast level of display. Grounded to get maximum contrast.
+4	|Register Select	|Connected to Microcontroller to shift between command/data register
+5|	Read/Write|	Used to read or write data. Normally grounded to write data to LCD
+6	|Enable|	Connected to Microcontroller Pin and toggled between 1 and 0 for data acknowledgement
+7	|Data Pin 0	|
+8	|Data Pin 1	|
+9	|Data Pin 2	|
+10	|Data Pin 3	|
+11	|Data Pin 4	|
+12	|Data Pin 5	|
+13	|Data Pin 6	|
+14	|Data Pin 7	|
+15	|LED Positive|	Backlight LED pin positive terminal
+16	|LED Negative|	Backlight LED pin negative terminal
