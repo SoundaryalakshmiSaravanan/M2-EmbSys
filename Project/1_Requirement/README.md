@@ -37,7 +37,7 @@ The ultrasonic wave is basically a sound wave that travels at a speed of 340 m/s
                              S = (t * 0.034)/2                                              
 
  
-### 1.5  SWOT ANALYSIS
+## 1.5  SWOT ANALYSIS
 ![Untitled Diagram (1)](https://user-images.githubusercontent.com/98818008/156940408-b020594d-473f-4182-a8e9-b58a304111f6.jpg)
 
 
@@ -54,7 +54,7 @@ Automatic Disrtance Measurement System can be used whereever the measurement of 
 ## WHY 
 Automatic Disrtance Measurement System is the excellent method to measure the distance of the obstracles without physical needs.
 
-### HOW
+## HOW
 By interfacing Ultrasonic sensor with ATMega 328p with LCD the distance can be measured precisely.
 
 ## 2 REQUIREMENTS
