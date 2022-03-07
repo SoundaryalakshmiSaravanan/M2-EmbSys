@@ -1,27 +1,23 @@
-## 3 ARCHITECTURE
-### 3.1 SEQUENTIAL DIAGRAM
+# 3 ARCHITECTURE
+## 3.1 SEQUENTIAL DIAGRAM
 
-![FINGERPRINT (4)](https://user-images.githubusercontent.com/98818008/155772453-bbb97374-af1d-470f-a303-355abacfd2eb.jpg)
-
-
-### 3.2 BLOCK DIAGRAM
-
-![FINGERPRINT (5)](https://user-images.githubusercontent.com/98818008/155772571-546703b2-0e48-4261-8089-974ba90b74e5.jpg)
+![Untitled Diagram (2)](https://user-images.githubusercontent.com/98818008/157046908-465bf2c1-c74a-4e95-88c6-2f0aa2a80997.jpg)
 
 
-### 3.3 COMPONENTS REQUIRED
-**1)** ATmega328-PU
+
+## 3.2 BLOCK DIAGRAM
+
+
+![Untitled Diagram (3)](https://user-images.githubusercontent.com/98818008/157047538-f5219499-ab7c-47df-8a6a-c9c3babbb779.jpg)
+
+
+## 3.3 COMPONENTS REQUIRED
+**1)** ATmega328P
 
 **2)** HRSC04 Ultrasonic sensor
 
-**3)** DC Motor
+**3)**  LCD 16 X 2
 
-**4)** LCD 16 X 2
-
-**5)** Piezo Buzzer
-
-
-**6)** Power Supply
 
 **1. ATmega328-PU**
 
