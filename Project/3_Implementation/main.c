@@ -1,7 +1,3 @@
-#ifndef __AVR_ATmega328P__
-#define __AVR_ATmega328P__
-#endif 
-#define F_CPU 8000000UL
 #include <avr/io.h>             // This header file includes the appropriate Input/output definitions for the device 
 #include <util/delay.h>         // to use delay function we need to include this library
 #include <stdlib.h>             // we'll be using itoa() function to convert integer to character array that resides in this library
