@@ -1,3 +1,38 @@
+# TABLE OF CONTENTS
+### 1. INTRODUCTION
+
+  #### 1.1 Abstract
+   
+   #### 1.2 Research
+   
+   #### 1.3 Features of the System
+   
+  #### 1.4 System Description
+   
+   #### 1.5 SWOT Analysis
+   
+  #### 1.6 4W & 1H
+   
+### 2. REQUIREMENTS
+
+   #### 2.1 High Level Requiremennts
+   
+   #### 2.2 Low Level Requirements
+   
+  #### 2.3 Components Required
+   
+### 3. ARCHITECTURE
+
+   #### 3.1 Block Diagram
+   
+  #### 3.2 Behavioral Diagram
+   
+   #### 3.3 Structral Diagram
+   
+### 4. TEST PLAN AND OUTPUT
+### 5. CONCLUSION
+
+
 # AUTOMATIC DISTANCE MEASUREMENT SYSTEM
 
 
