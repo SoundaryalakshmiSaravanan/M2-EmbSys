@@ -84,25 +84,52 @@ The ATMEGA328P-PN is a popular microcontroller due to it being a major component
 ### HC-SR04 ultrasonic sensor
 The HC-SR04 ultrasonic sensor uses sonar to determine the distance to an object like bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package.
 From 2cm to 400 cm or 1” to 13 feet. Its operation is not affected by sunlight or black material like sharp rangefinders are (although acoustically soft materials like cloth can be difficult to detect). It comes complete with the ultrasonic transmitter and a receiver module.
+
 Minimum measuring range - 2 cm
+
 Maximum measuring range : 400 cm or 4 meter
+
 Accuracy : 3 mm
+
 Operating Voltage : +5V
+
 Operating Current : 15mA
+
 Working Frequency : 40 KHz
+
 Trigger Input signal : 10us pulse
+
 Measuring angle : 15 degree
+
 VCC: +5VDC
+
 Trig : Trigger (INPUT)
+
 Echo: Echo (OUTPUT)
+
 GND: GND
+
 
 ### 16x2 LCD Module
 16x2 LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability, programmer friendly and available educational resources.
-1.Operating Voltage is 4.7V to 5.3V 2.Current consumption is 1mA without backlight 3.Alphanumeric LCD display module, meaning can display alphabets and numbers 4.Consists of two rows and each row can print 16 characters. 5.Each character is build by a 5×8 pixel box 6.Can work on both 8-bit and 4-bit mode 7.It can also display any custom generated characters 8.Available in Green and Blue Backlight
 
-P.No|	PIN| NAME|	PIN DESCRIPTION
-|-|-|-|-|
+1.Operating Voltage is 4.7V to 5.3V
+
+2.Current consumption is 1mA without backlight
+
+3.Alphanumeric LCD display module, meaning can display alphabets and numbers
+
+4.Consists of two rows and each row can print 16 characters
+
+5.Each character is build by a 5×8 pixel box
+
+6.Can work on both 8-bit and 4-bit mode
+
+7.It can also display any custom generated characters 8.Available in Green and Blue Backlight
+
+
+P.No|	PIN NAME|	PIN DESCRIPTION
+|-|-|-|
 1|	Vss (Ground)|	Ground pin connected to system ground|
 2|	Vdd (+5 Volt)|	Powers the LCD with +5V (4.7V – 5.3V)
 3	|VE (Contrast V)|	Decides the contrast level of display. Grounded to get maximum contrast.
