@@ -3,10 +3,8 @@ PROJ_NAME = Distance_Mesurement
 BUILD_DIR = Build
 
 # All Source code files
-SRC =distance_measure.c\
-src/usat.c
-src/i2c.c
-src/i2c_lcd.c
+SRC =DistanceMeasurement.c\
+
 # All header file paths
 INC = -I inc
 
