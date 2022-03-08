@@ -40,12 +40,10 @@
 
  ## 1.1  ABSTRACT
 
-In this project, an integrated system using an ultrasonic sensor HC-SR04 based on ATmega328P microcontroller
-was done. It is used to control the processing of data and to display the output. The microcontroller is connectedto ultrasonic sensor HC-SR04 which contains the piezoelectric with a particular frequency. This will generate ultrasonic waves and the waves will be reflected by the object whose distance to be measured. The time difference between the transmitted wave and reflected wave will be measured by the sensors. The accurate
-distance between the object and the sensors will be detected. Simulation output displayed in simulide.
+In this project, an integrated system using an ultrasonic sensor HC-SR04 based on ATmega328P microcontroller was done. It is used to measure the distance between the system and obstracle automatically. The microcontroller is connected to ultrasonic sensor HC-SR04 which contains the piezoelectric with a particular frequency.  This will generate ultrasonic waves and the waves will be reflected by the object whose distance to be measured. The time difference between the transmitted wave and reflected wave will be measured by the sensors.The accurate distance between the object and the sensors will be detected. Simulation output displayed in simulide.
 
 ## 1.2  RESEARCH
- Human audible range is 20hz to 20khz. We can utilize these frequency range waves through ultrasonic sensor HC-SR04.The advantages of this sensor when interfaced with arduino which is a control and sensing system, a proper distance measurement can be made with new techniques. This distance measurement system can be widely used as range meters and as proximity detectors in industries.Ultrasonic sensor is interfaced with ATmega 328 is efficient way to measure small distances precisely. The distance of an obstacle from the sensor is measured through ultrasonic sensor. After knowing the speed of sound the distance can be calculated.
+ Human audible range is 20hz to 20khz. We can utilize these frequency range waves through ultrasonic sensor HC-SR04. The advantages of this sensor when interfaced with arduino which is a control and sensing system, a proper distance measurement can be made with new techniques. This distance measurement system can be widely used as range meters and as proximity detectors in industries.Ultrasonic sensor is interfaced with ATmega 328 is efficient way to measure small distances precisely. Ultrasonic detection introduces high-frequency sound waves into a test object to obtain information about the object without altering or damaging it in any way.  After knowing the speed of sound the distance can be calculated.
 
  ## 1.3 FEATURES OF THE SYSTEM
  **1.** Measures the distance automatically . 
@@ -59,8 +57,10 @@ In this project, we are going to interface Ultrasonic sensor HC-SR04 with ATMEGA
 The ultrasonic sensor is used to measure the distance.It acts as a Sonar. It sends an ultrasonic wave of a certain frequency that comes back after hitting the object and calculates the time traveled by it.
 Distance Measurement Using ATMEGA 328P & HC-SR04 Ultrasonic Sensor is calculated and  displayed in LCD.
 
-## PRINCIPLE OF THE SYSTEM
+## WORKING PRINCIPLE OF THE SYSTEM
 An ultrasonic sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound waves and converts the reflected sound into an electrical signal. The ultrasonic sensor proposed here is a popular non-contact type level detector. It operates by generating an ultrasonic pulse and measuring the time it takes for an echo to return. 
+The ultrasonic sensor module comprises of one transmitter and one receiver. The transmitter can deliver 40 KHz ultrasonic sound while the maximum receiver is designed to accept only 40 KHz sound waves. The receiver ultrasonic sensor that is kept next to the transmitter shall thus be able to receive reflected 40 KHz, once the module faces any obstacle in front. Thus whenever any obstacles come ahead of the ultrasonic module it calculates the time taken from sending the signals to receiving them since time and distance are related for sound waves passing through air medium at 343.2m/sec. Upon receiving the signal MC program while executed displays the data i.e. the distance measured on an LCD interfaced with the microcontroller in cms.
+
 
 Ultrasonic sensors emit short, high-frequency sound pulses at regular intervals. These propagate in the air at the velocity of sound. If they strike an object, then they are reflected back as echo signals to the sensor, which itself computes the distance to the target based on the time-span between emitting the signal and receiving the echo.
 
@@ -119,25 +119,52 @@ The ATMEGA328P-PN is a popular microcontroller due to it being a major component
 ### HC-SR04 ultrasonic sensor
 The HC-SR04 ultrasonic sensor uses sonar to determine the distance to an object like bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package.
 From 2cm to 400 cm or 1” to 13 feet. Its operation is not affected by sunlight or black material like sharp rangefinders are (although acoustically soft materials like cloth can be difficult to detect). It comes complete with the ultrasonic transmitter and a receiver module.
+
 Minimum measuring range - 2 cm
+
 Maximum measuring range : 400 cm or 4 meter
+
 Accuracy : 3 mm
+
 Operating Voltage : +5V
+
 Operating Current : 15mA
+
 Working Frequency : 40 KHz
+
 Trigger Input signal : 10us pulse
+
 Measuring angle : 15 degree
+
 VCC: +5VDC
+
 Trig : Trigger (INPUT)
+
 Echo: Echo (OUTPUT)
+
 GND: GND
 
 ### 16x2 LCD Module
 16x2 LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability, programmer friendly and available educational resources.
-1.Operating Voltage is 4.7V to 5.3V 2.Current consumption is 1mA without backlight 3.Alphanumeric LCD display module, meaning can display alphabets and numbers 4.Consists of two rows and each row can print 16 characters. 5.Each character is build by a 5×8 pixel box 6.Can work on both 8-bit and 4-bit mode 7.It can also display any custom generated characters 8.Available in Green and Blue Backlight
 
-P.No|	PIN| NAME|	PIN DESCRIPTION
-|-|-|-|-|
+1.Operating Voltage is 4.7V to 5.3V
+
+2.Current consumption is 1mA without backlight
+
+3.Alphanumeric LCD display module, meaning can display alphabets and numbers
+
+4.Consists of two rows and each row can print 16 characters
+
+5.Each character is build by a 5×8 pixel box 
+
+6.Can work on both 8-bit and 4-bit mode
+
+7.It can also display any custom generated characters 
+
+8.Available in Green and Blue Backlight
+
+P.No|	PIN NAME|	PIN DESCRIPTION
+|-|-|-|
 1|	Vss (Ground)|	Ground pin connected to system ground|
 2|	Vdd (+5 Volt)|	Powers the LCD with +5V (4.7V – 5.3V)
 3	|VE (Contrast V)|	Decides the contrast level of display. Grounded to get maximum contrast.
@@ -179,6 +206,16 @@ P.No|	PIN| NAME|	PIN DESCRIPTION
 |-|-|-|-|-|
 |T_01|H_01| Sense the obstracles on the way of the system| Ultrasonic sensor senses the obstracles on the way | Pass
 |T_02|H_02|Trigger and echo are enabled | The rough values are captured |  Pass
-T_03|H_03| Calculation of the distance between the system and obstracle| The distaced calculatedis obtained|Pass
+T_03|H_03| Calculation of the distance between the system and obstracle| The distace calculated is obtained|Pass
 T_04|H_04| Display of the distance between the system and obstracle | The distance measured is displayed in LCD| Pass
+
+# 5. APPLLICATION
+**1.** The system with new prototyping hardware & capatibility & interfacing with
+other consumer electronics & flooding of shields.
+
+**2.** The ultrasonic detection can be used for finding the distances between particles, for detecting the discontinuities in metals and for indicating the liquid level. 
+
+**3.** This system can be implemented in height meausrment, agriculture velide, collision /protection
+and futher has more applications
+
 
