@@ -5,10 +5,7 @@
 
  ## 1.1  ABSTRACT
 
-In this project, an integrated system using an ultrasonic sensor HC-SR04 based on ATmega328P microcontroller
-was done. It is used to control the processing of data and to display the output. The microcontroller is connectedto ultrasonic sensor HC-SR04 which contains the piezoelectric with a particular frequency. This will generate ultrasonic waves and the waves will be reflected by the object whose distance to be measured. The time difference between the transmitted wave and reflected wave will be measured by the sensors. The accurate
-distance between the object and the sensors will be detected. Simulation output displayed in simulide.
-
+In this project, an integrated system using an ultrasonic sensor HC-SR04 based on ATmega328P microcontroller was done. It is used to measure the distance between the system and obstracle automatically. The microcontroller is connected to ultrasonic sensor HC-SR04 which contains the piezoelectric with a particular frequency. This will generate ultrasonic waves and the waves will be reflected by the object whose distance to be measured. The time difference between the transmitted wave and reflected wave will be measured by the sensors.The accurate distance between the object and the sensors will be detected. Simulation output displayed in simulide.
 ## 1.2  RESEARCH
  Human audible range is 20hz to 20khz. We can utilize these frequency range waves through ultrasonic sensor HC-SR04.The advantages of this sensor when interfaced with arduino which is a control and sensing system, a proper distance measurement can be made with new techniques. This distance measurement system can be widely used as range meters and as proximity detectors in industries.Ultrasonic sensor is interfaced with ATmega 328 is efficient way to measure small distances precisely. The distance of an obstacle from the sensor is measured through ultrasonic sensor. After knowing the speed of sound the distance can be calculated.
 
