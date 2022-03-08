@@ -210,7 +210,7 @@ T_04|H_04| Display of the distance between the system and obstracle | The distan
 T_05|H_05| Indication when the obstracle is not found| The details captured is displayed in LCD| Pass
 
 
-# 5. APPLLICATION
+# 5. APPLICATIONS
 **1.** The system with new prototyping hardware & capatibility & interfacing with
 other consumer electronics & flooding of shields.
 
